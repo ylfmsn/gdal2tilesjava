@@ -97,6 +97,9 @@ public class GDAL2Tiles {
         this.out_gt = getGeoTransform();
 
         this.ominx = out_gt[0];
+        this.omaxx = out_gt[0] + this.out_ds.getWidth() * this.out_gt[1];
+        this.omaxy = out_gt[3];
+        this.ominy = out_gt[3] - this.out_ds.getHeight() * this.out_gt[1];
 
 
 
