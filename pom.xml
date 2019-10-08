@@ -16,7 +16,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <geotools.version>20-SNAPSHOT</geotools.version>
-    <pdfbox.version>2.0.8</pdfbox.version>
+    <pdfbox.version>2.0.15</pdfbox.version>
     <image-scaling.version>0.8.6</image-scaling.version>
     <gdal.version>2.2.0</gdal.version>
     <geopackage.version>2.0.1</geopackage.version>
